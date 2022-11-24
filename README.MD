@@ -16,4 +16,7 @@ Running first test:
 4. in terminal type 'npm test'
 
 
-in terminal 'npm i axios'
+in terminal 'npm i axios' for fake API calls
+
+in package.json, under "scripts", put "testwatch": "jest --watchAll"
+in terminal use 'npm run testwatch' for instant test run
